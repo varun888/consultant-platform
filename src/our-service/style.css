@@ -1,0 +1,185 @@
+.our_services_section{
+    padding: 50px 0;
+    text-align: center;
+}
+.our_services_section h2{
+    color: #009091;
+}
+.our_services_section p{
+    color: #3c3c3c;
+    padding: 20px 0;
+}
+.images_section_our_service{
+    background-color: #ebf9ff;
+    padding: 50px 0;
+}
+.images_our_services img{
+    width: 100%;
+    /* position:relative; */
+}
+.text_in_image_our_service{
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    background-color: #01499e;
+    padding: 10px 30px;
+    color: #fff;
+}
+/* .text_in_image_our_service:hover{
+    display: flex;
+
+} */
+.images_our_services:hover .text_in_image_our_service,
+.images_our_services_2nd_section:hover .text_in_image_our_service{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.images_our_services_2nd_section img{
+    width: 100%;
+    margin-top: 30px;
+}
+.images_our_services_2nd_section:hover .text_in_image_our_service,
+.images_our_services:hover .text_in_image_our_service{
+    top: 0;
+    left: 15px;
+    bottom: 0;
+    right: 15px;
+    background-color:#01499eab;
+    
+} 
+.images_our_services_2nd_section:hover .text_in_image_our_service{
+    top: 30px;
+}
+.text_in_image_our_service p{
+    display: none;
+}
+.text_in_image_our_service Button{
+    display: none;
+}
+.images_our_services:hover .text_in_image_our_service p,
+.images_our_services:hover .text_in_image_our_service Button,
+.images_our_services:hover .text_in_image_our_service h4,
+.images_our_services_2nd_section:hover .text_in_image_our_service p,
+.images_our_services_2nd_section:hover .text_in_image_our_service Button,
+.images_our_services_2nd_section:hover .text_in_image_our_service h4{
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    
+}
+.images_our_services:hover .text_in_image_our_service p,
+.images_our_services_2nd_section:hover .text_in_image_our_service p{
+    /* padding: 20px 0; */
+}
+.images_our_services:hover .text_in_image_our_service Button,
+.images_our_services_2nd_section:hover .text_in_image_our_service Button{
+    background-color: #009091;
+    color: #fff;
+
+}
+.images_our_services:hover .text_in_image_our_service Button:focus,
+.images_our_services_2nd_section:hover .text_in_image_our_service Button:focus,
+.images_our_services:hover .text_in_image_our_service Button:active,
+.images_our_services_2nd_section:hover .text_in_image_our_service Button:active{
+    background-color: #009091;
+    box-shadow: none;
+    outline: none !important;
+    /* border-color: none; */
+}
+.images_our_services:hover .text_in_image_our_service Button:hover,
+.images_our_services_2nd_section:hover .text_in_image_our_service Button:hover{
+    border-color: transparent;
+    outline: none;
+}
+.our_special_services_section{
+    padding: 70px 0;
+    text-align: center;
+    /* justify-content: center; */
+}
+.our_special_services_section h2{
+    color: #009091;
+}
+.our_special_services_section p{
+    color: #3c3c3c;
+    padding: 20px 0;
+}
+.our_special_services_cards{
+    text-align: center;
+}
+.card_our_special_services{
+    width: 100%;
+    background-color: #fff !important;
+    padding: 20px 0;
+    border: none !important;
+    box-shadow: 0px 5px 5px 1px #c9c9c9;
+    display: block !important;
+}
+.card_our_special_services img{
+    max-width: 100px;
+    /* position:absolute; */
+}
+.card_our_special_services h5{
+    color: #009091;
+    margin-top: 10px;
+}
+.after_our_special_services_Section{
+    background-color:#01499e;
+    padding: 50px 0;
+    text-align: center;
+}
+.after_our_special_services_Section h4{
+    color: #fff;
+}
+.after_our_special_services_Section .btn-secondary{
+    background-color: #009091 !important;
+    color: #fff;
+    border-color: none;
+    margin: 40px 0 0 0;
+
+}
+.after_our_special_services_Section .btn-secondary:active{
+    background-color: none !important;
+}
+.after_our_special_services_Section .btn-secondary:hover{
+    border-color: none !important;
+}  
+
+@media only screen and (max-width:991px){
+    .images_our_services:hover .text_in_image_our_service p,
+    .images_our_services_2nd_section:hover .text_in_image_our_service p{
+        display: none;
+    }
+    .images_our_services:hover .text_in_image_our_service h4,
+    .images_our_services_2nd_section:hover .text_in_image_our_service h4{
+        font-size: 22px;
+    }
+}
+
+
+
+@media only screen and (max-width:767px){
+    .images_our_services:first-child{
+        margin-top: 0px !important;
+    }
+    .images_our_services{
+        margin-top: 32px;
+    }
+    .card_our_special_services:first-child,
+    .card_our_special_services:nth-child(2){
+        margin-top: 0;
+    }
+    .card_our_special_services{
+        margin-top: 32px;
+    }
+    
+}
+
+@media only screen and (max-width:575px){
+    .card_our_special_services:first-child{
+        margin-top: 0;
+    }
+    .card_our_special_services{
+        margin-top: 32px !important;
+    }
+}

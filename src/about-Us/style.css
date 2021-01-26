@@ -1,0 +1,115 @@
+.after_banner_section h2{
+    color: #009091;
+    text-align: center;
+    padding: 50px 0;
+}
+.after_banner_section p{
+    color: #3c3c3c;
+    margin: -40px 10px 60px 10px;
+    text-align: center;
+    font-weight: 400;
+}
+.specification_section{
+    background-color: #01499e;
+    padding: 50px 0;
+}
+.image_background_specification{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: relative;
+    margin: 0 auto;
+}
+.image_background_2nd_line_specification img,
+.image_background_specification img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+}
+.specification_ist_line{
+    color: #fff;
+    text-align: center;
+}
+.specification_ist_line h4{
+    margin: 20px 0;
+}
+.specification_2nd_line{
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+}
+.image_background_2nd_line_specification{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: relative;
+    margin: 0 auto;
+}
+.specification_2nd_line h4{
+    margin: 20px 0;
+}
+.text_in_image{
+    background-color: #009091;
+    padding: 20px 50px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: -3px;
+    transform: translateY(-50%);
+    color: #fff;
+}
+.things_to_do_near_section{
+    padding: 50px 0;
+    text-align: center;
+}
+.things_to_do_near_section h2{
+    color: #009091;
+
+}
+.things_to_do_near_section p{
+    color: #3c3c3c;
+    margin: 20px 0;
+}
+.images_section_to_do_near img{
+    width: 100%;
+    margin: 40px 0;
+}
+.amazing_stay_section{
+    background-color: #f0f7ff;
+    padding: 50px 0;
+    text-align: center;
+}
+.amazing_stay_section_part h2{
+    color: #009091;
+}
+.amazing_stay_section_part p{
+    padding: 24px 70px;
+}
+.amazing_stay_section_part a{
+    text-decoration: none !important;
+}
+.amazing_stay_section .slick-dots{
+    display: none !important;
+}
+.amazing_stay_section .slick-prev:before, 
+.amazing_stay_section .slick-next:before{
+    font-size: 30px;
+    color: #000;
+}
+
+@media only screen and (max-width:600px){
+    .amazing_stay_section .slick-prev{
+    left: 4px !important;
+    } 
+    .amazing_stay_section .slick-next{
+    right: 4px !important;
+    }
+    .amazing_stay_section_part p{
+    padding: 24px 40px;
+    }
+
+}

@@ -1,0 +1,639 @@
+.banner_image_left img{
+    width: 100%;
+    height: 500px;
+
+}
+.banner_section{
+    display: block;
+    width: 100%;
+    margin: 0px -15px 0px -15px;
+}
+.banner_social_icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 2px solid #009091;
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    transition: all .9s;
+}
+.banner_social_icon:first-child{
+    margin-top: 0;
+}
+.banner_social_icon:hover{
+    background-color: #009091;
+}
+.banner_social_icon:hover svg{
+    color: #fff;
+}
+.banner_social_icon svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.icons_banner svg{
+    width: 34px;
+    display: block;
+    color: #009091;
+}
+.icons_banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.left_part_about_us_section h2::after{
+    content: "";
+    display: block;
+    width: 10%;
+    height: 3px;
+    margin: 6px 5px;
+    background-color: #009091;
+}
+.left_part_about_us_section {
+    padding-top: 60px;
+}
+.left_part_about_us_section h2{
+    color: #009091;
+}
+.left_part_about_us_section p{
+    margin: 40px 0;
+    color: #3c3c3c;
+}
+.custom_button{
+    background-color: #009091 !important;
+    color: #fff !important;
+}
+.custom_button:focus{
+    box-shadow: none !important;
+}
+.image-margin-top{
+    margin-top: 35px;
+}
+.before_container_about_us{
+    padding: 60px 0px;
+}
+.right_section_about_us{
+    padding: 0 0 0 115px !important;
+}
+.right_section_about_us img{
+    max-width: 100%;
+}
+.heading_our_services{
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+}
+.heading_our_services::after{
+    content: "";
+    display: block;
+    width: 9%;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px auto;
+}
+.our_services_section_card{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: left;
+    margin: 40px;
+}
+.our_services_section_card h4{
+    color: #01499e;
+}
+.our_services_section_card p{
+    color: #3c3c3c;
+    padding: 15px 0;
+    margin-bottom: 0;
+}
+.our_services_section_card a{
+    color: #009091;
+    font-weight: 500;
+}
+.custom_button_our_services_secton{
+    background-color: #009091 !important;
+    color: #fff !important;
+    justify-content: center;
+    text-align: center;
+}
+.custom_button_our_services_secton:focus{
+    box-shadow: none !important;
+}
+.gallery_main_section{
+    text-align: center;
+    padding: 60px 0;
+}
+.gallery_image_section{
+    padding: 60px 0;
+}
+.gallery_section{
+
+}
+.gallery_section h1::after{
+    content: "";
+    display: block;
+    width: 9%;
+    height: 3px;
+    background-color: #009091;
+    margin: 10px auto;
+}
+.gallery_section h1{
+    color: #009091;
+}
+.gallery_section p{
+    color: #3c3c3c;
+    margin-bottom: 0;
+}
+.gallery_section_images img{
+    width: 100%;
+}
+.second_section_gallery{
+    margin-top: 30px;
+}
+.main_get_in_touch_section{
+    padding: 60px 0;
+}
+.rewiew_section_main{
+    background-color: #01499e;
+    text-align: center;
+    padding: 50px 0 150px 0;
+}
+.rewiew_section_part{
+    position: relative;
+    display: flex;
+}
+.rewiew_section h3{
+    color: #fff;
+}
+.rewiew_section p{
+    color: #e8e8e8;
+    margin: 30px 0 60px 0;
+}
+.client_image_rewiew_section{
+    width: 50%;
+    
+}
+.client_image_rewiew_section img{
+    width: 100%;
+}
+
+.client_message_rewiew_section{
+    width: 60%;
+    background-color: #fff;
+    padding: 30px;
+    border-left: 5px solid #009091;
+    z-index: 999;
+    position: relative;
+    margin-top: 9.8rem;
+    margin-left: -99px;
+}
+.client_message_rewiew_section {
+    width: 60%;
+    background-color: #fff;
+    padding: 30px;
+}
+.client_message_rewiew_section h4{
+    color: #01499e;
+}
+.client_message_rewiew_section p{
+    color: #3a3a3a;
+}
+.client_message_rewiew_section  .profile_client::after{
+    content: "";
+    display: block;
+    width: 10%;
+    height: 3px;
+    background-color: #009091;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.profile_client{
+    color: #535353;
+    margin: 10px 0 30px 0 !important;
+}
+.get_in_touch_section h2{
+    color: #009091;
+}
+.get_in_touch_section h2::after{
+    content: "";
+    display: block;
+    width: 30%;
+    height: 3px;
+    background-color: #009091;
+    margin: 5px 0;
+}
+.get_in_touch_section p{
+    margin: 20px 0;
+}
+.get_in_touch_section svg{
+    display: block;
+    margin: 0px 20px 0 0;
+    font-size: 20px;
+}
+.social_icon_get_in_touch_section{
+    display: flex;
+    margin-top: 25px;
+    text-decoration: none !important;
+    color: #000;
+
+}
+
+.social_icon_get_in_touch_section p{
+    margin: 0;
+}
+.right_section_get_in_touch{
+    width: 460px;
+}
+.card_get_in_touch_section{
+    background-color: #009091 !important;
+    color: #fff;
+    padding: 40px;
+    border-radius: 10px !important;
+}
+.card_get_in_touch_section{
+    position: absolute !important;
+}
+.card_get_in_touch_section input{
+    margin-top: 30px;
+}
+.card_get_in_touch_section textarea{
+    margin-top: 30px;
+}
+.form_submit_button{
+    display: inline-block;
+    width: 100px;
+    margin-top: 30px;
+    background-color: #0060d2 !important;
+}
+.footer_section{
+    background-color: #01499e;
+    color: #fff;
+    padding: 100px 0;
+    padding-bottom: 50px;
+}
+
+.footer_logo img{
+    width: 100%;
+}
+.footer_logo p{
+    margin: 20px 0;
+}
+.footer_section .icons_footer{
+    color: #00e1e2;
+    margin-left: 24px;
+}
+.footer_section a:first-child{
+    margin-left: 0;
+}
+.footer_about_us{
+    padding: 60px 0 0 20px;
+}
+.footer_about_us h3{
+
+}
+.footer_social_icons{
+    text-align: right;
+}
+.main_section_icons_footer{
+    margin-top: 8rem;
+}
+.icons_footer{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 3px solid #fff;
+    display: inline-block;
+    position: relative;
+}
+.icons_footer:hover{
+    background-color: #fff;
+}
+.icons_footer:hover svg{
+    color: #009091;
+}
+.icons_footer svg{
+    width: 34px;
+    display: block;
+    color: #fff;
+    margin: 10px 5px;
+}
+
+.footer_social_icons svg{
+    font-size: 24px;
+}
+.footer_navigation{
+    margin-top: 20px;
+}
+.footer_navigation .nav-item {
+    display: inline-block ;
+    list-style-type: none;
+    padding: 0;
+    
+}
+.footer_navigation .nav-item a{
+    padding-left: 0;
+    color: #fff;
+}
+.card_get_in_touch_section{
+    position: absolute;
+    width: 460px;
+    right: 0;
+}
+.banner_image_left .slick-next,
+.banner_image_left .slick-prev{
+    display: none !important;
+}
+.banner_image_left .slick-dots{
+    position: absolute;
+    bottom: 30px;
+}
+.banner_image_left .slick-dots li button:before {
+    font-size: 15px;
+    opacity: 1;
+    color: #c9c9c9;
+}
+.banner_image_left .slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #009091;
+    font-size: 20px;
+}
+.rewiew_section .slick-dots li button{
+    display: none;
+}
+.rewiew_section .slick-prev{
+    right: 0 !important;
+    left: auto;
+    top: 34%;
+    z-index: 111;
+}
+.rewiew_section .slick-next{
+    right: -50px;
+    top: 25%;
+}
+
+.rewiew_section .slick-prev,
+.rewiew_section .slick-next{
+    width: 50px;
+    height: 50px;
+    background-color: #009091;
+    
+}
+.rewiew_section .slick-prev:hover,
+.rewiew_section .slick-prev:focus,
+.rewiew_section .slick-next:hover,
+.rewiew_section .slick-next:focus{
+    color: #fff;
+    background-color: #009091;
+
+}
+
+@media only screen and (max-width:1170px){
+    .client_message_rewiew_section{
+        width: 55%;
+    }
+    .rewiew_section .slick-prev {
+        right: 52px !important;
+        top: 31.5%;
+    }
+    .rewiew_section .slick-next {
+        right: 0px;
+        top: 22%;
+    }
+    .footer_navigation .nav-item a {
+        padding-right: 10px;
+    }   
+}
+
+@media only screen and (max-width:991px){
+    .logo_header {
+        width: 290px;
+    }
+    .navbar-nav .nav-item {
+        padding: 5px 14px;
+    }
+    .left_part_about_us_section h2::after{
+        margin: 6px;
+        width: 28%;
+    }
+    .left_part_about_us_section p{
+        margin: 15px 0;
+    } 
+    .our_services_section_card{
+        margin: 40px 0;
+    }
+    .rewiew_section .slick-prev{
+        right: 64px !important;
+        top: 27.9%;
+    }
+    .rewiew_section .slick-next{
+        right: 13px;
+        top: 20%;
+    }
+    .card_get_in_touch_section{
+        width: 100%;
+    }
+    .get_in_touch_section h2::after{
+        margin: 5px;
+    }
+    .card_get_in_touch_section h3{
+        text-align: left;
+    }
+    .social_icon_get_in_touch_section{
+        text-align: left;
+    }
+    .main_section_icons_footer{
+        margin-top: 3rem;
+    }
+    .footer_section .icons_footer{
+        margin-left: 3px;
+    }
+    .right_section_about_us{
+        padding: 0 0 0 20px !important;
+    }
+    .image-last_about_us_section{
+        margin-top: 22px;
+    }
+    .left_part_about_us_section{
+        padding-top: 0;
+
+    }
+    .first_two_images_about_us,
+    .third_image_about_us_section {
+        text-align: center;
+    }
+    .last_image_about_us_section{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .icons_banner {
+        display: flex;
+        justify-content: center;
+        margin: 35px 10px;
+    }
+    .banner_social_icon:first-child {
+        margin-top: 20px;
+    }
+    .left_part_about_us_section{
+        text-align: center;
+    }
+    .left_part_about_us_section h2::after{
+        margin: 6px 190px;
+    }
+    .left_part_about_us_section{
+        margin: 30px 0 ;
+    }
+    .about_us_images_section{
+        display: inline-block;
+        margin: 5px 0;
+    }
+    .image-margin-top {
+        margin: 20px 35px;
+    }
+    .third_image_about_us_section{
+        margin: 10px 0;
+    }
+    .image-last_about_us_section{
+        margin: 20px -70px;
+        display: inline-block;
+    }
+    .heading_our_services::after{
+        width: 38%;
+    }
+    .our_services_section_card {
+        margin: 40px 0px;
+    }
+    .gallery_section{
+        margin-top: -20px;
+    }
+    .gallery_section h1::after{
+        width: 20%;
+        margin: 6px auto;
+    }
+    .gallery_section p{
+        margin: 25px 0;
+    }
+    .gallery_image_section {
+        padding: 30px 0;
+    }
+    .gallery_section_images{
+        margin: 10px 0;
+    }
+    .rewiew_section .slick-prev{
+        right: 48px !important;
+         top: 28.3%;
+    }
+    .rewiew_section .slick-next{
+        right: -2px;
+        top: 20.3%;
+    }
+    .client_message_rewiew_section h4{
+        font-size: 21px;
+    margin-top: -10px
+    }
+    .card_get_in_touch_section{
+        position: unset !important;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .banner_section{
+        margin: 0px 0px 0px 0px;
+        overflow: hidden;
+    }
+    .client_image_rewiew_section{
+        width: 40%;
+    }
+    .client_message_rewiew_section{
+        width: 70%;
+    }
+    .rewiew_section p{
+        margin: 30px 0 15px 0;
+    }
+    .rewiew_section_main{
+        padding: 50px 0 70px 0;
+    }
+    .footer_logo img{
+        width: 60%;
+    }
+    .footer_about_us{
+        padding: 40px 0 0 20px;
+    }
+    .footer_social_icons{
+        text-align: center;
+    }
+    .main_section_icons_footer{
+        margin-top: 3rem;
+    }
+    .footer_section{
+        padding: 50px 0;
+    }
+    .right_section_about_us {
+        padding: 0 !important;
+    }
+
+}
+
+@media only screen and (max-width:600px){
+    .right_section_get_in_touch{
+        width: 100%;
+    }
+    .image-last_about_us_section{
+        margin: 20px 10px;
+    }
+    .logo_header{
+        width: 210px;
+    }
+    .start_our_service_section{
+        padding: 24px 15px !important;
+    }
+    .rewiew_section_part{
+        display: inline-block;
+        
+    }
+    .client_image_rewiew_section{
+        width: 100%;
+    }
+    .client_message_rewiew_section{
+        width: 100%;
+        position: unset;
+        margin: 20px 0 0 0;
+    }
+    .rewiew_section .slick-prev{
+        top: unset;
+        bottom: -51px;
+        left: 30%;
+    }
+    .rewiew_section .slick-next{
+        top: unset;
+        bottom: -51px;
+        right: 30%;
+    }
+    .get_in_touch_section h2::after{
+        margin: 5px;
+    }
+    .social_icon_get_in_touch_section{
+        text-align: left;
+        padding: 0 10px;
+    }
+    .footer_logo img{
+        width: 70%;
+    } 
+    .footer_section{
+        padding: 50px 10px;
+    }
+    .footer_about_us{
+        margin-top: 20px;
+    }
+    .right_section_about_us{
+        text-align: center;
+    }
+    .left_part_about_us_section h2::after{
+        margin: 6px auto;
+    }
+
+}

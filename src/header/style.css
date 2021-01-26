@@ -1,0 +1,36 @@
+.header_start nav{
+    background-color: #ebf9ff;
+}
+
+.logo_header{
+    width: 370px;
+}
+/* .ul_header{
+    margin-left: auto;
+    margin-right: 0px;
+} */
+.mr-auto.navbar-nav{
+    margin-left: auto;
+    margin-right: 0px !important;
+}
+.navbar-nav a{
+    color: #4b4b4b !important;
+}
+.navbar-nav a:hover{
+    background-color: ;
+}
+.navbar-nav .nav-item a{
+    padding: 0 !important;
+}
+.navbar-nav .nav-item{
+    padding: 5px 16px;
+    border-radius: 4px;
+    transition: all .2s;
+}
+.navbar-nav .nav-item:hover{
+    background-color: #009091;
+}
+.navbar-nav .nav-item:hover a{
+    color: #fff !important;
+    text-decoration: none;
+}
